@@ -1,0 +1,8 @@
+version: '3'
+services:
+  vim:
+    build: .
+    volumes:
+      - .:/root/.vim
+    environment:
+      TERM: xterm-256color
