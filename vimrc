@@ -86,7 +86,22 @@ set background&
 colo force
 " }}}
 
-" Plugins
+" Plugins {{{1
+
+call plug#begin('~/.vim/bundle')
+
+Plug 'junegunn/vim-plug'
+
+Plug 'Raimondi/delimitMate'
+Plug 'othree/html5'
+Plug 'tomtom/tlib_vim'
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'alvan/vim-closetag'
+Plug 'tpope/vim-commentary'
+Plug 'garbas/vim-snipmate'
+Plug 'Symaxion/vim-snippets'
+
+call plug#end()
 
 " }}}
 
