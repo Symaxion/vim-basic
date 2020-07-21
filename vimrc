@@ -93,7 +93,12 @@ call plug#begin()
 
 Plug 'junegunn/vim-plug'
 
+
 Plug 'Raimondi/delimitMate'
+let delimitMate_expand_cr = 1
+au FileType vim let b:delimitMate_quotes="'" 
+
+
 Plug 'othree/html5.vim'
 Plug 'tomtom/tlib_vim'
 Plug 'MarcWeber/vim-addon-mw-utils'
