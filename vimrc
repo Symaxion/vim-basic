@@ -88,7 +88,8 @@ colo force
 
 " Plugins {{{1
 
-call plug#begin('~/.vim/bundle')
+let g:plug_home = (split(&rtp, ',')[0]) . '/bundle'
+call plug#begin()
 
 Plug 'junegunn/vim-plug'
 
