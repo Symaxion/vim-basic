@@ -93,7 +93,7 @@ call plug#begin('~/.vim/bundle')
 Plug 'junegunn/vim-plug'
 
 Plug 'Raimondi/delimitMate'
-Plug 'othree/html5'
+Plug 'othree/html5.vim'
 Plug 'tomtom/tlib_vim'
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'alvan/vim-closetag'
@@ -106,4 +106,3 @@ call plug#end()
 " }}}
 
 " vim: fdm=marker
-
