@@ -93,19 +93,32 @@ call plug#begin()
 
 Plug 'junegunn/vim-plug'
 
-
-Plug 'Raimondi/delimitMate'
-let delimitMate_expand_cr = 1
-au FileType vim let b:delimitMate_quotes="'" 
-
-
 Plug 'othree/html5.vim'
 Plug 'tomtom/tlib_vim'
 Plug 'MarcWeber/vim-addon-mw-utils'
-Plug 'alvan/vim-closetag'
 Plug 'tpope/vim-commentary'
 Plug 'garbas/vim-snipmate'
 Plug 'Symaxion/vim-snippets'
+Plug 'tpope/vim-surround'
+
+" delimitMate {{{2
+Plug 'Raimondi/delimitMate'
+let delimitMate_expand_cr = 1
+au FileType vim let b:delimitMate_quotes="'" 
+" }}}
+
+" Vim indent guides {{{2
+Plug 'nathanaelkane/vim-indent-guides'
+let g:indent_guides_start_level = 2
+let g:indent_guides_guide_size = 1
+let g:indent_guides_auto_colors = 0
+let g:indent_guides_enable_on_vim_startup = 1
+" }}}
+
+" XMLEdit {{{2
+Plug 'sukima/xmledit'
+let g:xmledit_enable_html = 1
+" }}}
 
 call plug#end()
 
