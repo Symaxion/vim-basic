@@ -28,6 +28,9 @@ set clipboard=unnamed
 set encoding=utf-8
 set hlsearch
 set incsearch
+set breakindent
+set breakindentopt=sbr
+set showbreak=↪︎↪︎
 set grepprg=grep\ -nH\ $*
 set completeopt-=preview
 set path+=/usr/local/include
