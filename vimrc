@@ -100,8 +100,6 @@ Plug 'othree/html5.vim'
 Plug 'tomtom/tlib_vim'
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tpope/vim-commentary'
-Plug 'garbas/vim-snipmate'
-Plug 'Symaxion/vim-snippets'
 Plug 'tpope/vim-surround'
 
 " delimitMate {{{2
@@ -122,6 +120,14 @@ let g:indent_guides_enable_on_vim_startup = 1
 Plug 'sukima/xmledit'
 let g:xmledit_enable_html = 1
 " }}}
+
+" SnipMate {{{2
+Plug 'garbas/vim-snipmate'
+Plug 'Symaxion/vim-snippets'
+let g:snipMate = {}
+let g:snipMate.snippet_version = 0
+" }}}
+
 
 call plug#end()
 
