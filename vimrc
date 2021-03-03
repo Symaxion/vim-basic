@@ -127,7 +127,10 @@ Plug 'Symaxion/vim-snippets'
 let g:snipMate = {}
 let g:snipMate.snippet_version = 0
 " }}}
+ 
 
+" Extension packs
+runtime! packs/**/pack.vim
 
 call plug#end()
 
