@@ -28,6 +28,7 @@ set clipboard=unnamed
 set encoding=utf-8
 set hlsearch
 set incsearch
+set linebreak
 set breakindent
 set breakindentopt=
 set showbreak=▓▓▓▓
